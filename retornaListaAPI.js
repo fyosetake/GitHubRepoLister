@@ -1,3 +1,4 @@
+import { usuarioGitHub } from './settings.js'
 export function retornaListaAPI(valueAtributo,valueOrdenar,buscaRepositorio) {
     
 let ul = document.querySelector('ul')
@@ -6,7 +7,7 @@ while (ul.firstChild) {
 ul.removeChild(ul.firstChild);
 }
 
-fetch('https://api.github.com/users/fyosetake/repos')
+fetch(`'https://api.github.com/users/${ usuarioGitHub }/repos'`)
    .then( async res =>{
         if(!res.ok){
             throw new Error(res.status)
