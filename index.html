@@ -15,23 +15,26 @@
         <h1>GitHub API - Listagem de repositórios</h1>
         
         <p>Repositório:</p>
-        <input type="text" id="buscaRepositorio" value="">
+        <input type="text" id="buscaRepositorio" value="" class="campo" >
         <input type="button" id="botaoBuscar" value="Buscar">
 
-        <p>Atributo:</p>
-        <select name="selecionarAtributo" id="selecionarAtributo" >
-            <option value="todos" selected>Todos</option>
-            <option value="arquivado">Arquivados</option>
-            <option value="tem_issues">Tem issues</option>
-            <option value="tem_downloads">Tem downloads</option>
-        </select>
+        <div id="grupoCombo">
+            <p>Atributo:</p>
+            <select name="selecionarAtributo" id="selecionarAtributo" class="campo" >
+                <option value="todos" selected>Todos</option>
+                <option value="arquivado">Arquivados</option>
+                <option value="tem_issues">Tem issues</option>
+                <option value="tem_downloads">Tem downloads</option>
+            </select>
 
-        <p>Ordenação:</p>
-        <select name="ordenarLista" id="ordenarLista" >
-            <option value="nome" selected>Por nome</option>
-            <option value="commit">Por commit</option>
-        </select>
-        
+            <p>Ordenação:</p>
+            <select name="ordenarLista" id="ordenarLista" class="campo" >
+                <option value="nome" selected>Por nome</option>
+                <option value="commit">Por commit</option>
+            </select>
+        </div>
+
+
         <ul></ul>
     </div>
 </body>
