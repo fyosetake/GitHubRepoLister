@@ -1,2 +1,5 @@
-# Consume_API_GitHub_JS_OO
- 
+# JS_Consume_API_GitHub
+
+Aplicação que consome a lista de repositórios públicos do meu usuário GitHub através da API da própria GitHub.
+
+Para alterar o programa com o objetivo de retornar os seus próprios repositórios, configure a variável "usuarioGitHub" no arquivo "settings.js"
