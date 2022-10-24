@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App GitHub</title>
+    
+    <script type="module" src="script.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="ComponenteBusca">
+        <h1>GitHub API - Listagem de repositórios</h1>
+        
+        <p>Repositório:</p>
+        <input type="text" id="buscaRepositorio" value="">
+        <input type="button" id="botaoBuscar" value="Buscar">
+
+        <p>Atributo:</p>
+        <select name="selecionarAtributo" id="selecionarAtributo" >
+            <option value="todos" selected>Todos</option>
+            <option value="arquivado">Arquivados</option>
+            <option value="tem_issues">Tem issues</option>
+            <option value="tem_downloads">Tem downloads</option>
+        </select>
+
+        <p>Ordenação:</p>
+        <select name="ordenarLista" id="ordenarLista" >
+            <option value="nome" selected>Por nome</option>
+            <option value="commit">Por commit</option>
+        </select>
+    </div>
+    <div id="ComponenteListagem">
+        <ul></ul>
+    </div>
+</body>
+</html>

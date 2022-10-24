@@ -1,0 +1,88 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    width: 100%;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 2;
+    display: flex;
+    background-color: rgb(37, 37, 53);
+    color: antiquewhite;
+    justify-content: left;
+    width: inherit;
+}
+ol, ul {
+    list-style: none;
+    margin: 50px 0px 0px 0px;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+span {
+    padding: 0px 0px 0px 20px;
+}
+strong {
+    padding: 0px 0px 0px 10px
+}
+#header{
+    padding: 0px 0px 0px 10px;
+}
+#botaoBuscar{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: arial;
+    background: linear-gradient(to bottom, #808caf, #b7c2e4);
+    border-color: #1a3761;
+    border: solid #7CAFFF 1px;
+    border-radius: 5px;
+    padding: 3px;
+    text-shadow: 0px 1px 2px #000000;
+    box-shadow: 0px 1px 5px #0D2444;
+    -webkit-transition: all 0.15s ease;
+    -moz-transition: all 0.15s ease;
+    -o-transition: all 0.15s ease;
+    transition: all 0.15s ease;
+    margin: 0px 0px 0px 10px;
+}
+#botaoBuscar:hover{
+    opacity: 0.9;
+    background: linear-gradient(to bottom, #333a4e, #1f2433);
+    box-shadow: 0px 1px 2px #000000;
+    border-color: #0D2444;
+}
