@@ -37,8 +37,8 @@ fetch(`https://api.github.com/users/${usuarioGitHub}/repos`)
         })
         if(valueOrdenar == "commit")
         data = data.sort(function (obj1, obj2) {
-            return obj1.pushed_at > obj2.pushed_at ? -1 :
-            (obj1.pushed_at < obj2.pushed_at ? 1 : 0);
+            return obj1.commit > obj2.commit ? -1 :
+            (obj1.commit < obj2.commit ? 1 : 0);
         })
 
         data.map(item => {
