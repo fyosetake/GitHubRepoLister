@@ -1,4 +1,4 @@
-# JS_Consume_API_GitHub
+# GitHubRepoLister
 
 Aplicação que consome a lista de repositórios públicos do meu (ou seu) usuário GitHub através da API da própria GitHub.
 
